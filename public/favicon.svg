@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .ink { fill: #17171A; }
+    .spark { fill: #4F46E5; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #F2F2F4; }
+      .spark { fill: #A5B4FC; }
+    }
+  </style>
+  <!-- Chat bubble: rounded rect with a small tail, the dominant shape at any size -->
+  <path
+    class="ink"
+    d="M4 8.5C4 6.57 5.57 5 7.5 5h16C25.43 5 27 6.57 27 8.5v9c0 1.93-1.57 3.5-3.5 3.5H14l-4.9 4.4c-.6.55-1.6.12-1.6-.7V21H7.5C5.57 21 4 19.43 4 17.5v-9Z"
+  />
+  <!-- AI sparkle: a compact 4-point star, offset to the lower-right so it reads
+       as a distinct accent mark rather than merging into the bubble outline -->
+  <path
+    class="spark"
+    d="M22.5 10.5c.25 2.5 1.5 3.75 4 4-2.5.25-3.75 1.5-4 4-.25-2.5-1.5-3.75-4-4 2.5-.25 3.75-1.5 4-4Z"
+  />
+</svg>
